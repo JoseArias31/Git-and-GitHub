@@ -114,5 +114,11 @@ Let's clone a repository:
 
 On git bash, we type:
 
--git clone GitHub Link
+-git clone GitHub Link.
+
+-git remote = This command run the name of the remote repository.
+
+-git remote -v = Here we can see the ways we can push our changes.
+Fetch = Finds the changes
+push = Send the changes
 
