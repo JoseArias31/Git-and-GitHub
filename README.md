@@ -64,11 +64,46 @@ Every time I want to add files to commit my files in case I have multiple files,
 
 *Modify a commit
 
-git commit --amend: To make changes, this command is useful only "locally" It means, in my PC. However, it's strongly recommended for the last commit made.
+git commit --amend: To make changes, this command is useful only "locally" It means, in my PC. However, it's strongly recommended for the last commitment made.
 
 *Reset commits: 
 
 -git reset --soft HEAD~1 This command is used to remove the last commit made however, this command will not remove the changes in my VSCode.
+
+*Make a new branch and modify branches. 
+
+-git branch javascript = so basically I add the name after the git branch command
+-git branch = it shows all the branches created.
+-git checkout javascript = I can switch branches with this command, from master to javascript
+-git checkout -b python = This command is to create a new branch and switches it to the new one.
+-git branch -m "version-js" = We need to stay on the branch we want to change the name and run this command with the new branch name.
+-git branch -m python version-python = This is a way to change the branch name, after the -m line we type the current branch name and the new one, we can still be in our main or master branch.
+
+*Remove a branch
+-git branch -d version-py
+
+*Make a commit with a branch that is not the main (master) one.
+
+Basically, we need to switch branches and make the change, after adding the change to be committed, we run the command git add . and the new changes are in the new branches, not in the main (master) one.
+
+While we are in the branch we just created and made changes, we can see all the commitments made with git log, however, we can use the following command to see them clearly.
+
+-git log --oneline
+
+-git log -p = we can see the changes made on Visual Studio Code
+
+*Merging Branches=
+
+To merge branches, we need to stay in the main (master) one before continuing.
+-git merge expanded-text
+
+*Issues with branches after being merged.
+
+Once branches are merged, we can delete the branch we used to modify and add to the main (master) one. git branch -d
+
+--In case we have a "conflict" we need to accept all the changes on my code editor before continuing, once the changes are accepted on VSCode, we should run the command:
+
+*git  merge --continue
 
 
 
