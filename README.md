@@ -122,3 +122,13 @@ On git bash, we type:
 Fetch = Finds the changes
 push = Send the changes
 
+*Send changes from local repository to remote repository with git push
+
+*Before pushing the changes, we need to protect our email address, this is the way to change the current personal emaail address to a Github Email:
+
+-Click on my photo on GitHub
+-Settings
+-Emails
+-Copy GitHub Email
+-Open Git Bash
+-git config --global user.email 115059715+JoseArias31@users.noreply.github.com
