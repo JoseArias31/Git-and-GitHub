@@ -114,5 +114,5 @@ Let's clone a repository:
 
 On git bash, we type:
 
--git clone GitHub Link.
+-git clone GitHub Link
 
