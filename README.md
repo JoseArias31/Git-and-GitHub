@@ -108,4 +108,11 @@ Once branches are merged, we can delete the branch we used to modify and add to 
 
 # GitHub
 
+After creating a GitHub account and setting up all the settings properly. 
+
+Let's clone a repository:
+
+On git bash, we type:
+
+-git clone GitHub Link.
 
