@@ -136,7 +136,7 @@ push = Send the changes
 
 *Tokens with HTTPS
 
-Everytime I use git with GitHub, I have to authenticate my account and syncronized both tools, there is a easy way to do it:
+Every time I use git with GitHub, I have to authenticate my account and synchronized both tools, there is an easy way to do it:
 
 1-Clasic sign in with the GitHub credentials.
 2-By using tokens(This is only for personal security access):
@@ -144,10 +144,10 @@ Everytime I use git with GitHub, I have to authenticate my account and syncroniz
 -On GitHub click on settings
 -<>Developer settings
 -Personal Access Token
--Tokens (Classsic)
+-Tokens (Classic)
 -Click on Generate a personal access token
 -Type a note
--Set a experation time
+-Set a expiration time
 -Select a scope
 -Finally click on Generate Token
--On the sig in option, instead of clicking on sing in, we can select the Token option instead.
+-On the sign-in option, instead of clicking on sing in, we can select the Token option instead.
