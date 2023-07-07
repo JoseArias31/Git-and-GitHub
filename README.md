@@ -157,3 +157,5 @@ Every time I use git with GitHub, I have to authenticate my account and synchron
 -git pull origin main = keep in mind we need to be on the branch we want to pull from.
 
 *Git fetch works to validate the changes made without changing anything from our repositories if so, we can git pull the changes.
+
+-git fetch origin =works as a command to check the commit made so far
