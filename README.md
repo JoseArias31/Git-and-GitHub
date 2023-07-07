@@ -147,7 +147,11 @@ Every time I use git with GitHub, I have to authenticate my account and synchron
 -Tokens (Classic)
 -Click on Generate a personal access token
 -Type a note
--Set a expiration time
+-Set an expiration time
 -Select a scope
 -Finally click on Generate Token
--On the sign-in option, instead of clicking on sing in, we can select the Token option instead.
+-On the sign-in option, instead of clicking on sign-in, we can select the Token option instead.
+
+*To Pull documents from GitHub to our local repository:
+
+-git pull origin main = keep in mind we need to be on the branch we want to pull from.
