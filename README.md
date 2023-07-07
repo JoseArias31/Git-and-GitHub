@@ -155,3 +155,5 @@ Every time I use git with GitHub, I have to authenticate my account and synchron
 *To Pull documents from GitHub to our local repository:
 
 -git pull origin main = keep in mind we need to be on the branch we want to pull from.
+
+*Git fetch works to validate the changes made without changing anything from our repositories if so, we can git pull the changes.
