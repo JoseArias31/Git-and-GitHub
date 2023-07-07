@@ -154,8 +154,16 @@ Every time I use git with GitHub, I have to authenticate my account and synchron
 
 *To Pull documents from GitHub to our local repository:
 
--git pull origin main = keep in mind we need to be on the branch we want to pull from.
+-git pull origin main = Keep in mind we need to be on the branch we want to pull from.
 
 *Git fetch works to validate the changes made without changing anything from our repositories if so, we can git pull the changes.
 
--git fetch origin =works as a command to check the commit made so far
+-git fetch origin =works as a command to check the commit made so far.
+
+*Now, to push files to a remote repository from a local repository, we need to make sure that we have created a folder and have done the setup to start a new local repository with a git init.
+
+A good way to see if the repository is not ready to pull documents, we should run:
+-git remote -v = This will display no messages which means the local repository is not connected with the remote one.
+
+-Let's create a new repository on GitHub to see the lines commands to connect both repositories.
+
