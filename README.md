@@ -169,4 +169,20 @@ A good way to see if the repository is not ready to pull documents, we should ru
 
 -git remote add origin https://github.com/JoseArias31/Testing-Local-Remote-Repositories.git
 
+*Pull Request
+
+This section is very interesting, the best way to start doing a pull request is by forking a repository and cloning it locally, once it is done, we should make the changes and go to our forked repository and click on:
+-Contribute
+-Click on Open Pull request
+-Add notes or a message about your pull request.
+-Finally, click on "Create a pull Request"
+-Wait until the owner accepts the pull request.
+
+Short Cut to open VS Code from git bash
+-code .
+
+*Adding a new branch and pushing files from a new branch, first of all, we should create a new branch, on its branch, we can run the following command:
+-git push origin new-text = So the new branch will be added to the remote repository
+
+
 
