@@ -167,3 +167,6 @@ A good way to see if the repository is not ready to pull documents, we should ru
 
 -Let's create a new repository on GitHub to see the lines commands to connect both repositories.
 
+-git remote add origin https://github.com/JoseArias31/Testing-Local-Remote-Repositories.git
+
+
