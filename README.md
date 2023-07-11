@@ -183,6 +183,8 @@ Short Cut to open VS Code from git bash
 
 *Adding a new branch and pushing files from a new branch, first of all, we should create a new branch, on its branch, we can run the following command:
 -git push origin new-text = So the new branch will be added to the remote repository
+-git branch -a : This command shows the remote branches.
+-git push origin -d name of the branch : This command deletes a branch locally.
 
 
 
